@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../image/background.jpg') no-repeat center center/cover;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px 10%;
+    background: #2C3E50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10% 50px;
+    min-height: 100vh;
+}
+
+.hero-content {
+    color: black;
+    max-width: 70%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+}
+
+.hero-content h4 {
+    color: gray;
+}
+
+.highlight {
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
